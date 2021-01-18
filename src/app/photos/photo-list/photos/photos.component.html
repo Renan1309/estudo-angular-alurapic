@@ -1,7 +1,7 @@
 <p class="text-center text-muted" *ngIf="!photos.length">
     Sorry, no photos
 </p>
-<ol class="list-unstyled">
+<ol class="list-unstyled" apDarkenOnHover>
     <li *ngFor="let cols of rows" class="row no-gutters">
         <div *ngFor="let photo of cols" class="col-4">
             <ap-card>
